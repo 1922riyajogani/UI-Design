@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NinthActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pencil" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/search" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/figma" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Message"
+                android:textSize="32dp"
+                android:textColor=" #000000"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="155dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/one">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="170dp"
+            android:background="@drawable/two">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="320dp"
+            android:background="@drawable/three">
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="372dp"
+        android:layout_height="297dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/shape11"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/shape12"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gone" />
+
+            </FrameLayout>
+
+            <LinearLayout
+
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eleanor pena"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:text="2:30 pm"
+                    android:textColor="#FF2E00"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="am contacting you because of the
+following concern and"
+                    android:textColor="#434343"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/shape12"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gone" />
+
+            </FrameLayout>
+
+            <LinearLayout
+
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Party all night"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:text="1:34 pm"
+                        android:textColor="#FF2E00"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="am contacting you because of the
+following concern and"
+                    android:textColor="#434343"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/shape12"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gtwo" />
+
+            </FrameLayout>
+
+            <LinearLayout
+
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cody fisher"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:text="1:24 pm"
+                        android:textColor="#FF2E00"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="am contacting you because of the
+following concern and"
+                    android:textColor="#434343"
+                    android:textSize="16dp" />
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="665dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/home" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="140dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/favorite" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="240dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/comment" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="340dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape3" />
+
+    </LinearLayout>
+
+</FrameLayout>

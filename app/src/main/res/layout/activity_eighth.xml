@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EighthActivity">
+
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#A4D7E2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="12dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:background="@drawable/shape">
+
+            <FrameLayout
+                android:layout_width="75dp"
+                android:layout_height="7dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#FFFFFF"
+                android:background="@drawable/shape6"/>
+
+            <FrameLayout
+                android:layout_width="75dp"
+                android:layout_height="7dp"
+                android:layout_marginLeft="92dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#B7B7B7CC"
+                android:background="@drawable/shape6"/>
+
+            <FrameLayout
+                android:layout_width="75dp"
+                android:layout_height="7dp"
+                android:layout_marginLeft="180dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#B7B7B7CC"
+                android:background="@drawable/shape6"/>
+
+            <FrameLayout
+                android:layout_width="75dp"
+                android:layout_height="7dp"
+                android:layout_marginLeft="265dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#B7B7B7CC"
+                android:background="@drawable/shape6"/>
+
+
+        </FrameLayout>
+    </LinearLayout><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="12dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/shape">
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_height="7dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#77BBCA"
+            android:background="@drawable/shape6"/>
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_height="7dp"
+            android:layout_marginLeft="92dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#77BBCA"
+            android:background="@drawable/shape6"/>
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_height="7dp"
+            android:layout_marginLeft="180dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#B7B7B7CC"
+            android:background="@drawable/shape6"/>
+
+        <FrameLayout
+            android:layout_width="75dp"
+            android:layout_height="7dp"
+            android:layout_marginLeft="265dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#B7B7B7CC"
+            android:background="@drawable/shape6"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imgggg" />
+
+        <LinearLayout
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="When’s your"
+                android:textColor=" #000000"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Birthday"
+                android:textColor="#03596C"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Month"
+            android:textSize="22dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="#454545" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Day"
+            android:textColor="#454545"
+            android:layout_marginLeft="185dp"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Year"
+            android:textSize="22dp"
+            android:layout_marginLeft="290dp"
+            android:textColor="#454545" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/groupp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/groupp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/groupp" />
+
+    </LinearLayout>
+</FrameLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="575dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="293dp"
+                android:layout_height="68dp"
+                android:text="We only show your age to
+potential matches,not your
+birthday."
+                android:textColor="#B1B1B1"
+                android:textSize="20dp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/star1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/star2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/play" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="9dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/desh" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <FrameLayout
+
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/shape3" />
+
+    </LinearLayout>
+
+</FrameLayout>

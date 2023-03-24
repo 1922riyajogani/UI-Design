@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeventhActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/groupr"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="350dp"
+                android:layout_height="12dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:backgroundTint="#99FDFDDF"
+                android:background="@drawable/shape">
+
+                <FrameLayout
+                    android:layout_width="75dp"
+                    android:layout_height="7dp"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="2dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:background="@drawable/shape6"/>
+
+                <FrameLayout
+                    android:layout_width="75dp"
+                    android:layout_height="7dp"
+                    android:layout_marginLeft="92dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp"
+                    android:backgroundTint="#B7B7B7CC"
+                    android:background="@drawable/shape6"/>
+
+                <FrameLayout
+                    android:layout_width="75dp"
+                    android:layout_height="7dp"
+                    android:layout_marginLeft="180dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp"
+                    android:backgroundTint="#B7B7B7CC"
+                    android:background="@drawable/shape6"/>
+
+                <FrameLayout
+                    android:layout_width="75dp"
+                    android:layout_height="7dp"
+                    android:layout_marginLeft="265dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="2dp"
+                    android:backgroundTint="#B7B7B7CC"
+                    android:background="@drawable/shape6"/>
+
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/groupa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:text="Anna"
+            android:textColor="#000000"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="53dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center"
+            android:text="12h ago"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="270dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/groups" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="655dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/shape7" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/entypo_sharealternitive" />
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="90dp"
+            android:src="@drawable/rectangle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="110dp"
+            android:gravity="center"
+            android:text="Send Message..."
+            android:textColor="#5B5B5B"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="270dp"
+            android:src="@drawable/groupe" />
+
+</FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="355dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape3"/>
+
+
+
+</FrameLayout>

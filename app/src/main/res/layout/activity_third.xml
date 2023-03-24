@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".ThirdActivity">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ellipse" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/vector" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/figma" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Participants"
+                android:textSize="22dp"
+                android:textColor=" #000000"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/group" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Guy Hawkins"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:textColor=" #000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/groupi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cody Fisher"
+            android:textSize="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="130dp"
+            android:textColor=" #000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/groupii" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Jane Cooper"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="250dp"
+            android:textColor=" #000000" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/groupiii" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Williamson"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:textColor=" #000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/groupiv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Mckinney"
+            android:textSize="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="130dp"
+            android:textColor=" #000000" />
+
+        <ImageView
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/groupv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Kristin Watson"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="245dp"
+            android:textColor=" #000000" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/groupvi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Simmons"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:textColor=" #000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/groupvii" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Annette Black"
+            android:textSize="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="120dp"
+            android:textColor=" #000000" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/groupviii" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Eleanor pena"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="255dp"
+            android:textColor=" #000000" />
+
+    </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/shape3" />
+
+
+    </FrameLayout>
